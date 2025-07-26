@@ -25,3 +25,19 @@ Opt__emp_ID,
     (990022326,'Sonu','Sharma','Noida',27,9089239890),
     (990022327,'Rahul','Sharma','Noida',26,7378909565);
 
+--- Now suppose we want to select all the employee from table
+
+SELECT * FROM Opt__emp
+
+-- Now i want only three column from table in employee table like name and age
+
+SELECT opt__emp_first_name, opt__emp_last_name, opt__emp_age FROM Opt__emp
+
+-- Now we want distinct employee age here we are going to use distinct employee age
+
+SELECT DISTINCT opt__emp_age FROM Opt__emp
+
+-- Select employee age whose age is greater than 25
+
+SELECT * FROM Opt__emp WHERE opt__emp_age>25
+
