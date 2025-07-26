@@ -1,0 +1,1 @@
+-- This is a simple program to help us write and understand how sql works
