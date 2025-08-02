@@ -40,3 +40,18 @@ SELECT DISTINCT Opt__emp_Age FROM Opt__emp
 -- Select employee age whose age is greater than 25
 
 SELECT * FROM Opt__emp WHERE Opt__emp_Age>25
+
+
+    ----Where clause that will help you find by VALUES
+    
+    select * from Opt__emp where Opt__emp_Location = 'Noida'
+
+----Where clause that will help you find by VALUES by ID
+    
+    select * from Opt__emp where Opt__emp_ID = 990022327
+
+
+    ----Where clause that will help you find by VALUES by ID greater than 990022321
+    
+    select * from Opt__emp where Opt__emp_ID > 990022321
+
