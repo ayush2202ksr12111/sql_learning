@@ -55,3 +55,7 @@ SELECT * FROM Opt__emp WHERE Opt__emp_Age>25
     
     select * from Opt__emp where Opt__emp_ID > 990022321
 
+
+    ----order by clause that will help you get values in ascending order
+    
+    select * from Opt__emp order by Opt__emp_Age
