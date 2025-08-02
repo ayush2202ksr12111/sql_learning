@@ -18,10 +18,10 @@ Opt__emp_ID,
     Opt__emp_Age,
     Opt__emp_contact_Phone
 ) VALUES (990022321,'Ayush','Jain','Noida',26,9625463432),
-    (990022322,'Rishabh','Pundir','Noida',2,7278932543),
+    (990022322,'Rishabh','Pundir','Gurgaon',2,7278932543),
     (990022323,'Aksha','Verma','Noida',22,7456472343),
-    (990022324,'Akash','Pandey','Noida',22,7489309879),
-    (990022325,'Srishti','Gupta','Noida',25,7378909892),
+    (990022324,'Akash','Pandey','Hyderabad',22,7489309879),
+    (990022325,'Srishti','Gupta','Mumbai',25,7378909892),
     (990022326,'Sonu','Sharma','Noida',27,9089239890),
     (990022327,'Rahul','Sharma','Noida',26,7378909565);
 
