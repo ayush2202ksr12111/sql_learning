@@ -5,7 +5,7 @@ CREATE TABLE Opt__emp(
     Opt__emp_First_Name VARCHAR(50),
     Opt__emp_Last_Name VARCHAR(50),
     Opt__emp_Location VARCHAR(50),
-    Opt__emp_Age INT CHECK (Age >= 0 AND Age <= 99),
+    Opt__emp_Age INT CHECK (Opt__emp_Age >= 0 AND Opt__emp_Age <= 99),
     Opt__emp_contact_Phone int(10)
 );
 
@@ -31,13 +31,12 @@ SELECT * FROM Opt__emp
 
 -- Now i want only three column from table in employee table like name and age
 
-SELECT opt__emp_first_name, opt__emp_last_name, opt__emp_age FROM Opt__emp
+SELECT Opt__emp_First_Name, Opt__emp_Last_Name, Opt__emp_Age FROM Opt__emp
 
 -- Now we want distinct employee age here we are going to use distinct employee age
 
-SELECT DISTINCT opt__emp_age FROM Opt__emp
+SELECT DISTINCT Opt__emp_Age FROM Opt__emp
 
 -- Select employee age whose age is greater than 25
 
-SELECT * FROM Opt__emp WHERE opt__emp_age>25
-
+SELECT * FROM Opt__emp WHERE Opt__emp_Age>25
